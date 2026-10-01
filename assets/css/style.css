@@ -1757,7 +1757,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Poppins",sans-serif}
 .navbar a:hover,.navbar .active,.navbar li:hover>a{color:var(--jel-gold)}
 .book-a-table-btn,#hero .btn-menu,#hero .btn-book{border-color:var(--jel-gold)}
 .book-a-table-btn:hover,#hero .btn-menu:hover,#hero .btn-book:hover{background:var(--jel-gold);color:var(--jel-navy-dark)}
-#hero{background:linear-gradient(90deg,rgba(3,36,63,.88),rgba(6,54,92,.58)),url("../img/hero-bg.jpg") center/cover no-repeat}
+#hero{background:linear-gradient(90deg,rgba(3,36,63,.88),rgba(6,54,92,.58)),url("../img/Imagen1.jpg") center/cover no-repeat}
 #hero:before{background:rgba(3,36,63,.18)}
 #hero h1 span,.section-title p,.events .event-item h3{color:var(--jel-gold)}
 section{background:#fff}
