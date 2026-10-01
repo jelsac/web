@@ -1781,3 +1781,18 @@ section{background:#fff}
 .back-to-top{border-color:var(--jel-gold);background:var(--jel-navy)}
 .back-to-top i{color:var(--jel-gold)}
 @media(max-width:768px){#hero{background-position:center}.img-gallery{height:240px}.project-intro{font-size:15px;padding:0 15px}}
+
+
+/* ===== Proyectos JEL ===== */
+.projects{padding:80px 0;background:#f5f7f9}
+.projects .row{align-items:stretch}
+.project-card{height:100%;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(3,36,63,.10);border-bottom:3px solid var(--jel-gold);transition:transform .25s ease,box-shadow .25s ease}
+.project-card:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(3,36,63,.16)}
+.project-card a{display:block;overflow:hidden}
+.project-img{width:100%;height:245px;object-fit:cover;transition:transform .35s ease}
+.project-card:hover .project-img{transform:scale(1.035)}
+.project-body{padding:22px 22px 24px}
+.project-body span{display:block;color:#a77800;font-size:12px;font-weight:700;letter-spacing:1.2px;margin-bottom:7px}
+.project-body h3{color:var(--jel-navy);font-size:21px;font-weight:700;margin-bottom:10px}
+.project-body p{color:#5c6873;line-height:1.6;margin:0}
+@media(max-width:768px){.projects{padding:55px 0}.project-img{height:220px}}
