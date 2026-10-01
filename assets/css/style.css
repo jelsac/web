@@ -1747,3 +1747,37 @@ section {
   height: 238px;
 
 }
+
+/* ===== Identidad corporativa JEL 2026 ===== */
+:root{--jel-navy:#06365c;--jel-navy-dark:#03243f;--jel-gold:#f7b900;--jel-light:#f4f7fa;--jel-text:#243447}
+body{background:var(--jel-light);color:var(--jel-text)}
+h1,h2,h3,h4,h5,h6{font-family:"Poppins",sans-serif}
+#topbar{background:var(--jel-navy-dark)}
+#header,#header.header-scrolled{background:rgba(3,36,63,.96);border-bottom:1px solid rgba(247,185,0,.35)}
+.navbar a:hover,.navbar .active,.navbar li:hover>a{color:var(--jel-gold)}
+.book-a-table-btn,#hero .btn-menu,#hero .btn-book{border-color:var(--jel-gold)}
+.book-a-table-btn:hover,#hero .btn-menu:hover,#hero .btn-book:hover{background:var(--jel-gold);color:var(--jel-navy-dark)}
+#hero{background:linear-gradient(90deg,rgba(3,36,63,.88),rgba(6,54,92,.58)),url("../img/FOTO DE CIVA JEL.png") center/cover no-repeat}
+#hero:before{background:rgba(3,36,63,.18)}
+#hero h1 span,.section-title p,.events .event-item h3{color:var(--jel-gold)}
+section{background:#fff}
+.about{background:linear-gradient(135deg,var(--jel-navy-dark),var(--jel-navy))}
+.specials,.chefs,.contact{background:#f4f7fa;color:var(--jel-text)}
+.specials .details h3,.contact .info h4{color:var(--jel-navy)}
+.specials .details p,.contact .info p{color:#536273}
+.specials .nav-link{color:var(--jel-navy);border-right-color:var(--jel-gold)}
+.specials .nav-link.active{background:var(--jel-gold);color:var(--jel-navy-dark);border-color:var(--jel-gold)}
+.events{background:linear-gradient(rgba(3,36,63,.92),rgba(3,36,63,.92)),url("../img/events-bg.jpg") center/cover no-repeat}
+.events::before{background:transparent}
+.gallery{background:#fff}
+.gallery .section-title{text-align:center;padding-bottom:18px}
+.project-intro{max-width:820px;margin:0 auto 34px;color:#5c6873;font-size:17px;line-height:1.7}
+.gallery .gallery-item{border:6px solid #fff;box-shadow:0 8px 24px rgba(3,36,63,.10);overflow:hidden}
+.gallery .gallery-item img{transition:.35s ease}
+.gallery .gallery-item:hover img{transform:scale(1.035)}
+.img-gallery{height:300px;width:100%;object-fit:cover}
+#footer,#footer .footer-top{background:var(--jel-navy-dark);border-color:rgba(255,255,255,.12)}
+.contact .info i{background:var(--jel-gold);color:var(--jel-navy-dark)}
+.back-to-top{border-color:var(--jel-gold);background:var(--jel-navy)}
+.back-to-top i{color:var(--jel-gold)}
+@media(max-width:768px){#hero{background-position:center}.img-gallery{height:240px}.project-intro{font-size:15px;padding:0 15px}}
