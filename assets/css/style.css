@@ -1828,12 +1828,12 @@ section{background:#fff}
 #clients .swiper-slide img,
 .clients .swiper-slide img,
 #clients .client-logo img {
-  width: auto !important;
-  max-width: 160px !important;
-  height: 80px !important;
-  object-fit: contain !important;
-  margin: 0 auto !important;
-  display: block !important;
+ width: auto !important;
+max-width: 210px !important;
+height: 105px !important;
+object-fit: contain !important;
+margin: 0 auto !important;
+display: block !important;
 }
 
 #clients .swiper-slide,
