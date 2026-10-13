@@ -1824,21 +1824,19 @@ section{background:#fff}
 .events::before {
   background-color: rgba(6, 43, 73, 0.08) !important;
 }
-/* JEL - Tamaño de logotipos de clientes */
-.clients .swiper-slide img {
-  width: 65%;
-  max-width: 220px;
-  height: 110px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  transition: transform 0.3s ease;
+/* JEL - Reducir logotipos de clientes */
+#clients .swiper-slide img,
+.clients .swiper-slide img,
+#clients .client-logo img {
+  width: auto !important;
+  max-width: 160px !important;
+  height: 80px !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  display: block !important;
 }
 
+#clients .swiper-slide,
 .clients .swiper-slide {
-  text-align: center;
-}
-
-.clients .swiper-slide img:hover {
-  transform: scale(1.05);
+  text-align: center !important;
 }
