@@ -1829,8 +1829,8 @@ section{background:#fff}
 .clients .swiper-slide img,
 #clients .client-logo img {
  width: auto !important;
-max-width: 210px !important;
-height: 105px !important;
+max-width: 250px !important;
+height: 125px !important;
 object-fit: contain !important;
 margin: 0 auto !important;
 display: block !important;
