@@ -2055,3 +2055,13 @@ section#clients,
   margin: 0 auto !important;
   display: block !important;
 }
+
+/* JEL - Ajuste final de logotipos */
+
+#clients .swiper-slide img {
+  max-width: 85% !important;
+  max-height: 110px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
