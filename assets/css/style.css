@@ -2086,7 +2086,7 @@ section#clients,
 
 /* JEL - Universidad Inca Garcilaso */
 #clients img[src*="Garcilaso"] {
-  transform: scale(1.25) !important;
+  transform: none !important;
   width: auto !important;
   max-width: 100% !important;
   height: 110px !important;
