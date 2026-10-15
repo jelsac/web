@@ -2022,3 +2022,15 @@ display: block !important;
 #clients {
   background-color: #E8EFF5 !important;
 }
+
+/* JEL - Fondo definitivo de Nuestros Clientes */
+
+section#clients,
+#clients.chefs,
+#clients .container {
+  background-color: #dce8f2 !important;
+}
+
+#clients {
+  background-image: none !important;
+}
