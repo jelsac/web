@@ -2065,3 +2065,33 @@ section#clients,
   height: auto !important;
   object-fit: contain !important;
 }
+/* JEL - Ajuste uniforme de logotipos */
+
+#clients .swiper-slide img {
+  width: 100% !important;
+  max-width: 300px !important;
+  height: 125px !important;
+  max-height: 125px !important;
+  object-fit: contain !important;
+  margin: auto !important;
+}
+
+/* Real Plaza */
+#clients img[src*="realPlaza"] {
+  transform: scale(1.35);
+}
+
+/* Universidad Inca Garcilaso */
+#clients img[src*="Garcilaso"] {
+  transform: scale(1.35);
+}
+
+/* LR&JD */
+#clients img[src*="LRyJD"] {
+  transform: scale(0.85);
+}
+
+/* ABZ Ingenieros */
+#clients img[src*="abz"] {
+  transform: scale(0.90);
+}
