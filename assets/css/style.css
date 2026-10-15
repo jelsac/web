@@ -2076,14 +2076,20 @@ section#clients,
   margin: auto !important;
 }
 
-/* Real Plaza */
+/* JEL - Real Plaza sin recortes */
 #clients img[src*="realPlaza"] {
-  transform: scale(1.35);
+  transform: none !important;
+  height: 110px !important;
+  max-height: 110px !important;
+  object-fit: contain !important;
 }
 
-/* Universidad Inca Garcilaso */
+/* JEL - Universidad Inca Garcilaso sin recortes */
 #clients img[src*="Garcilaso"] {
-  transform: scale(1.35);
+  transform: none !important;
+  height: 110px !important;
+  max-height: 110px !important;
+  object-fit: contain !important;
 }
 
 /* LR&JD */
