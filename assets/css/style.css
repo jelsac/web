@@ -1840,3 +1840,20 @@ display: block !important;
 .clients .swiper-slide {
   text-align: center !important;
 }
+/* JEL - Nuevo diseño de la sección Nosotros */
+
+#about .content p,
+#about .content {
+  font-family: 'Poppins', sans-serif !important;
+  color: #cbd5e1 !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  line-height: 1.9 !important;
+  letter-spacing: 0.2px;
+}
+
+#about .section-title p {
+  font-family: 'Playfair Display', serif !important;
+  color: #f5b800 !important;
+  font-weight: 500 !important;
+}
