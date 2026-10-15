@@ -2034,3 +2034,24 @@ section#clients,
 #clients {
   background-image: none !important;
 }
+
+#clients .swiper-slide {
+  background: #ffffff !important;
+  border-radius: 14px !important;
+  padding: 25px !important;
+  min-height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0, 35, 65, 0.10);
+  box-sizing: border-box;
+}
+
+#clients .swiper-slide img {
+  max-width: 100% !important;
+  width: auto !important;
+  height: 115px !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
