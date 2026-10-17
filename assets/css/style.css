@@ -2140,3 +2140,16 @@ section#clients,
   background: transparent !important;
   padding: 0 !important;
 }
+
+/* JEL - Tarjetas de servicios en azul hielo */
+#services .jel-service-card {
+  background: #EAF4FB !important;
+  border: 1px solid #D7E8F4;
+  border-top: 4px solid #F7B900;
+  box-shadow: 0 5px 16px rgba(12, 53, 85, 0.07);
+  transition: background-color .25s ease, box-shadow .25s ease;
+}
+#services .jel-service-card:hover {
+  background: #F4FAFE !important;
+  box-shadow: 0 10px 25px rgba(12, 53, 85, 0.14);
+}
