@@ -2125,3 +2125,8 @@ section#clients,
 #gallery .project-intro {
   color: #F0F5F8 !important;
 }
+
+/* JEL - Fondo de la sección Contáctenos */
+#contact {
+  background-color: #E8F0F7 !important;
+}
