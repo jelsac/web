@@ -2108,3 +2108,20 @@ section#clients,
 #gallery {
   background-color: #E8F0F7 !important;
 }
+
+/* JEL - Fondo corporativo de proyectos */
+#gallery {
+  background-color: #103B57 !important;
+}
+
+#gallery .section-title h2 {
+  color: #C6D4DE !important;
+}
+
+#gallery .section-title p {
+  color: #FFB900 !important;
+}
+
+#gallery .project-intro {
+  color: #F0F5F8 !important;
+}
