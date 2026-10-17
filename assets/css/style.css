@@ -2103,3 +2103,8 @@ section#clients,
 #clients img[src*="abz"] {
   transform: scale(0.90);
 }
+
+/* JEL - Fondo de proyectos realizados */
+#gallery {
+  background-color: #E8F0F7 !important;
+}
