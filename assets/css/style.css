@@ -2155,45 +2155,8 @@ section#clients,
 }
 
 
-/* JEL - Modelo 3: servicios con fotografías y degradado celeste */
+/* JEL - Fondo temporal de servicios mientras se cargan imágenes correctas */
 #services .jel-service-card {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  background-color: #d8efff !important;
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/1 foto IGP-CI-Montaje de Construcción LWA.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  border: 1px solid #b7ddf4 !important;
-  border-top: 5px solid #ffb900 !important;
-  box-shadow: 0 8px 22px rgba(11,69,111,.16) !important;
-  transition: transform .25s ease, box-shadow .25s ease !important;
-}
-#services .jel-service-card:nth-child(6n+2) {
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/U. INKA GARCILAZO DE LA VEGA - MANTENIMIENTO GENERAL  .png") !important;
-}
-#services .jel-service-card:nth-child(6n+3) {
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/Imagen 3.jpg") !important;
-}
-#services .jel-service-card:nth-child(6n+4) {
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/ESSALUD -  SERV. DE INSTALCION DE PUERTAS, REJAS DE SEGURIDAD Y ACCESORIOS.png") !important;
-}
-#services .jel-service-card:nth-child(6n+5) {
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/2 foto IGP-CI-Paneles de Progreso del Proyecto LWA.png") !important;
-}
-#services .jel-service-card:nth-child(6n+6) {
-  background-image: linear-gradient(90deg, rgba(241,249,255,.98) 0%, rgba(229,245,255,.94) 48%, rgba(222,241,253,.42) 100%), url("../img/gallery/REAL PLAZA PRO - PINTADO DE FACHADAS Y AREAS  COMUNES  .png") !important;
-}
-#services .jel-service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 14px 30px rgba(11,69,111,.23) !important;
-}
-#services .jel-service-card h3 { color: #092e53 !important; }
-#services .jel-service-card p { color: #345574 !important; font-weight: 500; }
-#services .jel-service-icon {
-  width: 65px;
-  border-radius: 50%;
-  background: rgba(255,255,255,.95);
-  box-shadow: 0 3px 12px rgba(13,63,101,.13);
-  justify-content: center !important;
+  background: linear-gradient(145deg, #FFFFFF 0%, #E6F7FF 100%) !important;
+  background-image: none !important;
 }
